@@ -1,5 +1,6 @@
 <?php require __DIR__ . "/autoload.php";
 
+//TODO move to a separate file
 if (file_exists(__DIR__ . "/.env.php")) {
     foreach (require __DIR__ . "/.env.php" as $key => $val) {
         $_ENV[$key] = $_SERVER[$key] = $val;
@@ -31,7 +32,7 @@ $app->map("/about", function () use ($app) {
         $app->config("adn.app.client_secret")
     );
 
-    $app->render("about.php", array(
+    $app->render("about.twig", array(
         "alpha"   => $app->config("adn.alpha_domain"),
         "support" => $app->config("adn.support_email"),
         "github"  => $app->config("adn.github_url"),
