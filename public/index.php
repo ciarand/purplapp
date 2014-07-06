@@ -8,5 +8,5 @@ if (php_sapi_name() === 'cli-server') {
     }
 }
 
-$app = require __DIR__.'/../bootstrap.php';
+$app = require __DIR__.'/../app.php';
 $app->run();
