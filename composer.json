@@ -1,6 +1,8 @@
 {
     "require": {
-        "Slim/Slim": "~2.4.3"
+        "Slim/Slim": "~2.4.3",
+        "slim/views": "~0.1.2",
+        "twig/twig": "~1.16.0"
     },
     "autoload": {
         "classmap": ["lib/"]
