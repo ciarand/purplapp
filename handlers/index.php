@@ -1,4 +1,5 @@
-<?php 
+<?php
+
   require_once './ADN_php/EZAppDotNet.php'; // get the EZAppDotNet.php library 
   require('./ADN_php/ErrorHandler.php'); // get the error handling functions
 
