@@ -1,0 +1,8 @@
+{
+    "require": {
+        "Slim/Slim": "~2.4.3"
+    },
+    "autoload": {
+        "classmap": ["lib/"]
+    }
+}
