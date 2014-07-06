@@ -1,5 +1,6 @@
-config.php
-readme.md
+/config.php
+/vendor
+/.env.php
 features.md
 ADN_php/EZsettings.php
 phpinfo.php
