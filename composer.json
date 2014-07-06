@@ -5,6 +5,9 @@
         "twig/twig": "~1.16.0"
     },
     "autoload": {
-        "classmap": ["lib/"]
+        "classmap": ["lib/"],
+        "psr-4": {
+            "Purplapp\\": "src/"
+        }
     }
 }
