@@ -41,4 +41,9 @@ $app->map("/about", function () use ($app) {
     ));
 })->via("GET", "POST");
 
+
+$app->notFound(function () use ($app) {
+    $app->render("404.twig");
+});
+
 return $app;
