@@ -4,6 +4,7 @@
 return array(
     "debug"                 => true,
 
+    'view'                  => new \Slim\Views\Twig(),
     "templates.path"        => __DIR__ . "/views",
 
     // ADN_PHP settings
